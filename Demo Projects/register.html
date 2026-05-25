@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <title>Course Registration</title>
     <style>
+        
         body {
+            
             margin: 0;
+            
             padding: 0;
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
         }
+        
         /* Header */
         .header {
             background-color: black;
@@ -23,6 +27,7 @@
             font-weight: bold;
         }
         .container {
+            
             width: 450px;
             margin: 40px auto;
             background-color: white;
@@ -30,12 +35,14 @@
             border-radius: 4px;
             box-shadow: 0 0 10px rgba(0,0,0,0.2);
             text-align: center;
+            
         }
         label {
             display: block;
             margin-bottom: 10px;
             font-size: 16px;
         }
+        
         input, select {
             width: 100%;
             padding: 12px;
@@ -53,13 +60,16 @@
             font-size: 18px;
             font-weight: bold;
             cursor: pointer;
+            
             border-radius: 2px;
         }
         button:hover {
+            
             background-color: #45a049;
         }
     </style>
 </head>
+    
 <body>
 
     <div class="header">
@@ -70,16 +80,20 @@
         <form action="http://localhost:8080/courses/register" method="post">
 
             <label>Enter your name:</label>
+
+            
             <input type="text" name="name" required>
 
             <label>Enter your emailId:</label>
             <input type="email" name="email" required>
+            
 
             <label>Choose a Course</label>
             <select name="Coursename">
                 <option value="Java Essentials">Java Essentials</option>
                 <option value="Python for ML">Python Ml</option>
                 <option value="Spring Boot">Spring Boot</option>
+                
             </select>
 
             <button type="submit">Submit</button>
