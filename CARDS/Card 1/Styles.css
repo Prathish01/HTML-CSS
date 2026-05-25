@@ -1,21 +1,25 @@
 *{
     padding: 0;
+    
     margin: 0;
     box-sizing: border-box;
 }
 
 :root{
+    
     --yellow:hsl(47,88%,63%);
     --white: hsl(0, 0%, 100%);
     --grey:hsl(0, 0%, 42%);
     --black:hsl(0, 0%, 7%);
 
 }
+
 body{
     background-color: var(--yellow);
     min-height: 100vh;
     font-family: 'Figtree','sans-serif';
     display: grid;
+    
     place-content: center;
 }
 .card{
@@ -23,6 +27,7 @@ body{
     max-width: 400px;
     padding:1.5rem;
     margin: 1rem;
+    
     position: relative;
     border-radius: 1rem;
     outline: 1px solid #000;
@@ -46,6 +51,7 @@ body{
     background-color: var(--yellow);
     width: min-content;
     padding: 0.5rem;
+    
     margin-top: 1.5rem;
     font-weight: 800;
     border-radius: 0.5rem;
@@ -71,6 +77,7 @@ body{
 .card.author{
     margin-top: 1rem;
     display: flex;
+    
     align-items: center;
     gap: .5rem;
 
