@@ -2,10 +2,13 @@ function rolldice()
 {
 let bx = document.getElementById("bx").value
 let values =[]
+    
 let images =[]
+    
 let btn = document.getElementById("btn")
 let im = document.getElementById("diceimages")
 let val = document.getElementById("diceresult")
+    
 
     for(let i =1;i<=bx;i++)
     {
@@ -18,6 +21,7 @@ let val = document.getElementById("diceresult")
    im.innerHTML = images.join('')
   
 
+    
 
 }
  
