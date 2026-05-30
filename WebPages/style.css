@@ -6,8 +6,10 @@
 #cont
 {
     height: 100vh;
+    
     width: 100%;
     border: 1px solid none;
+    
    display: grid;
    background-image: url(./stock-photo-abstract-background-bright-blue-poly-pattern.jpg);
     background-repeat: no-repeat;
