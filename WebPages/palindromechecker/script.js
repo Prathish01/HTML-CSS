@@ -1,13 +1,17 @@
 let input = document.getElementById("hi")
+
 let result = document.getElementById("res")
 function reverse(str) {
     return str.split("").reverse().join("");
+    
+    
 }
 
 function work() {
     let value = input.value
     let rev = reverse(value);
     console.log(rev);
+    
 
     if(value === rev)
     {
