@@ -3,14 +3,19 @@
 function RandomPass()
 {
 let AllowedLength = document.getElementById("len").value
+    
 let AllowedLower = document.getElementById("Lc").checked
 let AllowedUpper = document.getElementById("Uc").checked
+    
 let AllowedNumbers = document.getElementById("numb").checked
 let AllowedSymbols = document.getElementById("Sym").checked
 let result1 = document.getElementById("res")
+    
+    
 
 
     const LowerCaseChars = 'abcdefghijklmnopqrstuvwxyz'
+    
     const UpperCaseChars ='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     const AllNumbers ='1234567890'
     const AllSymbols = '!@#$%^&*'
