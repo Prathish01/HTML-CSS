@@ -4,9 +4,11 @@
     font-size: 10cm;
     font-family: Helvetica;
  }
+
  #btnContainer{
     text-align: center;
  }
+
  .buttons{
     padding: 10px 20px;
     font-size: 1.5rem;
@@ -16,6 +18,7 @@
     cursor: pointer;
     transition: background-color 0.25s;
  }
+
  .buttons:hover{
     background-color: hsl(214, 100%, 56%);
  }
